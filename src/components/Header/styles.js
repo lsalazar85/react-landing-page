@@ -65,3 +65,9 @@ export const HeaderP = styled.p`
 export const HeaderWrapper = styled.header`
   background: ${colors.SecondaryBg}
 `
+
+export const PhoneImageContent = styled.div`
+    @media(min-width: 320px){
+      width: 300px
+    }
+`

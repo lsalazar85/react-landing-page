@@ -5,10 +5,14 @@ import {
     HeaderH2,
     HeaderH3,
     Hr,
-    HeaderP
+    HeaderP,
+    PhoneImageContent
 } from "./styles";
 
+import FirstPhone from '../../assets/images/iphone-front.png'
+
 import Button from "../Button";
+import Image from "../Image";
 
 const Header = () => (
     <HeaderWrapper>
@@ -28,6 +32,9 @@ const Header = () => (
                 </HeaderP>
                 <Button text='Learn More' />
             </PhoneSectionDiv>
+            <PhoneImageContent>
+                <Image src={FirstPhone} alt="First Phone" />
+            </PhoneImageContent>
         </PhoneSection>
     </HeaderWrapper>
 )

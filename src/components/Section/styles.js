@@ -6,3 +6,5 @@ export const SectionWrapper = styled.section`
   padding: 6rem;
   background: ${props => props.background ? colors.SecondaryBg : colors.White};
 `
+
+
